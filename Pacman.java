@@ -13,7 +13,7 @@ public class Pacman extends JFrame {
     }
     
     private void initUI() {
-        
+       
         add(new Board());
         setTitle("Pacman");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -22,7 +22,7 @@ public class Pacman extends JFrame {
         setVisible(true);    
     }
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
         EventQueue.invokeLater(new Runnable() {
 
